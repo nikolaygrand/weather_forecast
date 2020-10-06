@@ -2,7 +2,7 @@ package ru.antonov.hotels.di
 
 import com.example.weatherforecast.activities.MainActivity
 import com.example.weatherforecast.activities.MainPresenter
-import com.example.weatherforecast.app.WeatherApplication
+import com.example.weatherforecast.navigation.Navigator
 import dagger.Component
 import javax.inject.Singleton
 
@@ -17,7 +17,7 @@ import javax.inject.Singleton
     ]
 )
 interface AppComponent {
-    fun inject(application: WeatherApplication)
     fun inject(activity: MainActivity)
     fun inject(presenter: MainPresenter)
+    fun inject(navigation: Navigator)
 }

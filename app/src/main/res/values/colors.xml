@@ -3,4 +3,12 @@
     <color name="colorPrimary">#6200EE</color>
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
+
+    <color name="transparent">#FFFFFFFF</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="title">#494242</color>
+    <color name="address">#564e4e</color>
+    <color name="stars">#FFFFFF</color>
+    <color name="bg">#e0e0e0</color>
 </resources>

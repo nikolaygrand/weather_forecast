@@ -7,10 +7,7 @@ import ru.antonov.hotels.di.DaggerAppComponent
 class WeatherApplication: Application() {
     override fun onCreate() {
         super.onCreate()
-
-        appComponent = DaggerAppComponent.builder()
-            .build()
-        appComponent.inject(this)
+        appComponent = DaggerAppComponent.create()
     }
 
     companion object {
